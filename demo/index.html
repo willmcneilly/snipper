@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>snipper demo</title>
+    <link rel="stylesheet" href="./assets/normalize.css" />
+    <link rel="stylesheet" href="./assets/main.css" />
+    <style>
+      /* begin demo embedded styles */
+
+      /* end demo embedded styles */
+    </style>
+  </head>
+  <body>
+    <h1>snipper demo</h1>
+
+    <!-- begin demo markup -->
+    <div class="my-element">
+      <span>Something</span>
+      <div class="another-child-ele">
+        <span>Something 2</span>
+        <span>Something 3</span>
+      </div>
+    </div>
+
+    <!-- end demo markup -->
+
+    <p>See the <a href="http://willmcneilly.github.io/snipper">project homepage</a>.
+    <p>Check out the <a href="https://github.com/willmcneilly/snipper">project repo</a>.
+    <p>Copyright 2014 Will McNeilly</p>
+
+    <script src="./../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./../dist/snipper.js"></script>
+
+    <script>
+      /* begin demo script */
+      var ele = $('.my-element')[0]
+      var n = new snipper(window,$, ele);
+      debugger;
+      console.log(n);
+
+      /* end demo script */
+    </script>
+  </body>
+</html>

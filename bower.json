@@ -1,0 +1,12 @@
+{
+  "name": "snipper",
+  "version": "0.0.0",
+  "main": "dist/snipper.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {}
+}
