@@ -1,6 +1,8 @@
 # snipper
 
-Extract elements from the DOM with their styles
+Extract elements from the DOM with their styles.
+
+A work in progress.
 
 ## About
 
